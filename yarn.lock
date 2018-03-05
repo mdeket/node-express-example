@@ -760,17 +760,9 @@ commander@^2.11.0, commander@^2.9.0:
   version "2.14.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.14.1.tgz#2235123e37af8ca3c65df45b026dbd357b01b9aa"
 
-commander@~0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-0.6.1.tgz#fa68a14f6a945d54dbbe50d8cdb3320e9e3b1a06"
-
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
-
-connect-body-rewrite@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/connect-body-rewrite/-/connect-body-rewrite-0.0.4.tgz#d2d444d19630dccf1bef81231aec145dad0f402b"
 
 console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
@@ -833,21 +825,11 @@ debounce@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/debounce/-/debounce-1.1.0.tgz#6a1a4ee2a9dc4b7c24bb012558dbcdb05b37f408"
 
-debug@*:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  dependencies:
-    ms "2.0.0"
-
 debug@2.6.9, debug@^2.2.0, debug@^2.6.8:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
     ms "2.0.0"
-
-debug@~0.7.0:
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-0.7.4.tgz#06e1ea8082c2cb14e39806e22e2f6f757f92af39"
 
 decamelize@^1.1.2:
   version "1.2.0"
@@ -896,15 +878,6 @@ dynamic-dedupe@^0.2.0:
 each-series@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/each-series/-/each-series-1.0.0.tgz#f886e6c66dfdb25ef1fe73564146ee5cb478afcb"
-
-easy-livereload@^1.3.0:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/easy-livereload/-/easy-livereload-1.3.1.tgz#7400d72104e3caf1d58b616935bebba2eeb7a008"
-  dependencies:
-    connect-body-rewrite "0.0.4"
-    livereload-js "^2.2.2"
-    livereload-server "^0.2.3"
-    node-watch "^0.3.5"
 
 ecc-jsbn@~0.1.1:
   version "0.1.1"
@@ -1464,24 +1437,6 @@ kind-of@^4.0.0:
   dependencies:
     is-buffer "^1.1.5"
 
-livereload-js@^2.2.2:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/livereload-js/-/livereload-js-2.3.0.tgz#c3ab22e8aaf5bf3505d80d098cbad67726548c9a"
-
-livereload-protocol@~0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/livereload-protocol/-/livereload-protocol-0.2.2.tgz#34a8541bcd4d18a61fb2e324f6ae314d4e7feb77"
-  dependencies:
-    debug "~0.7.0"
-
-livereload-server@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/livereload-server/-/livereload-server-0.2.3.tgz#0204ba43f400e12ce6b427f41a7e9bd854cab756"
-  dependencies:
-    debug "~0.7.0"
-    livereload-protocol "~0.2.2"
-    websocket.io "~0.2.1"
-
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
@@ -1777,10 +1732,6 @@ node-pre-gyp@^0.6.39:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-watch@^0.3.5:
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/node-watch/-/node-watch-0.3.5.tgz#a07f253a4f538de9d4ca522dd7f1996eeec0d97e"
-
 nopt@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/nopt/-/nopt-4.0.1.tgz#d0d4685afd5415193c8c7505602d0d17cd64474d"
@@ -1850,10 +1801,6 @@ once@^1.3.0, once@^1.3.3, once@^1.4.0:
   resolved "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz#583b1aa775961d4b113ac17d9c50baef9dd76bd1"
   dependencies:
     wrappy "1"
-
-options@latest:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/options/-/options-0.0.6.tgz#ec22d312806bb53e731773e7cdaefcf1c643128f"
 
 os-homedir@^1.0.0:
   version "1.0.2"
@@ -2374,10 +2321,6 @@ thunky@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/thunky/-/thunky-1.0.2.tgz#a862e018e3fb1ea2ec3fce5d55605cf57f247371"
 
-tinycolor@0.x:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/tinycolor/-/tinycolor-0.0.1.tgz#320b5a52d83abb5978d81a3e887d4aefb15a6164"
-
 to-fast-properties@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-1.0.3.tgz#b83571fa4d8c25b82e231b06e3a3055de4ca1a47"
@@ -2470,13 +2413,6 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-websocket.io@~0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/websocket.io/-/websocket.io-0.2.1.tgz#79eaf174b91ecfa4fbf14ffe268871c052e47d2a"
-  dependencies:
-    debug "*"
-    ws "0.4.20"
-
 which@^1.0.5:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/which/-/which-1.3.0.tgz#ff04bdfc010ee547d780bec38e1ac1c2777d253a"
@@ -2492,14 +2428,6 @@ wide-align@^1.1.0:
 wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
-
-ws@0.4.20:
-  version "0.4.20"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-0.4.20.tgz#f44b63f46b9edfc457309c720bcc0f83f2fc5874"
-  dependencies:
-    commander "~0.6.1"
-    options latest
-    tinycolor "0.x"
 
 xtend@^4.0.1:
   version "4.0.1"
