@@ -1,6 +1,3 @@
-# node-express-example
-
-
 # Node.js w/ Express.js and Mongodb
 
 ## Introduction
